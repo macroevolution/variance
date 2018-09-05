@@ -34,7 +34,7 @@ net_con <- as.numeric(rates_conditioned[1] - rates_conditioned[2])
 net_uncon <- as.numeric(rates_unconditioned[1] - rates_unconditioned[2])
 
 
-net_con # versus 0.058 that MRW2018 obtain from BAMM for use-all-data
+net_con # versus 0.058 that MRW2018 obtain from BAMM for discard-data
 
 net_uncon   # versus 0.125 that MRW2018 obtain from BAMM for use-all-data
 
