@@ -92,11 +92,11 @@ hist(rmat[2,], breaks=50)
  #   under a pure-birth process, and constrain our estimates to 
  #    be performed under pure-birth process as well.
 #  
-
+nvecX <- seq(5, 500, by = 5)
 pbmat <- matrix(NA, nrow= length(nvecX), ncol = REPS)
 msmat <- matrix(NA, nrow= length(nvecX), ncol = REPS)
 
-nvecX <- seq(5, 500, by = 5)
+
 
 for (ii in 1:length(nvecX)){
  
